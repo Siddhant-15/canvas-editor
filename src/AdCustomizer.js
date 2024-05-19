@@ -7,7 +7,7 @@ const AdCustomizer = () => {
     const [caption, setCaption] = useState('Hello World!');
     const [cta, setCta] = useState('Contact Us');
     const [bgColor, setBgColor] = useState('#F20C0C');
-    const [colorHistory, setColorHistory] = useState(['#4B5563', '#FFFFFF', '#1F2937', '#97FF00', '#D1D5DB']);
+    const [colorHistory, setColorHistory] = useState(['#F20C0C', '#FFFFFF', '#1F2937', '#97FF00', '#D1D5DB']);
 
     useEffect(() => {
         const canvas = canvasRef.current;
